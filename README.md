@@ -19,8 +19,10 @@ This project is a mobile application built with React Native that displays count
 
 1. Clone the repository: git clone https://github.com/aidinb/FoodStyle
 2. Navigate to the project directory: cd FoodStyle
-3. Install dependencies: npm install
-4. Start the application: npm start
+3. Install dependencies: yarn
+4. Start the application: yarn start
+5. Ios: yarn run-ios
+6. Android: yarn run-android
 
 ## Usage
 
