@@ -1,0 +1,46 @@
+import React from 'react';
+import {
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  ViewStyle,
+  TextStyle,
+} from 'react-native';
+import {COLORS} from '../styles';
+
+interface FilterBoxProps {
+  title?: string;
+  onPress: () => void;
+  enable: boolean;
+}
+
+const FilterBox: React.FC<FilterBoxProps> = ({title, onPress, enable}) => (
+  <TouchableOpacity onPress={onPress} style={styles.container}>
+    <Text
+      style={[
+        styles.title,
+        {color: enable ? COLORS.fontColor : COLORS.darkGrey},
+      ]}>
+      {title ?? 'Filter'}
+    </Text>
+  </TouchableOpacity>
+);
+
+const styles = StyleSheet.create({
+  container: {
+    height: 30,
+    backgroundColor: COLORS.grey,
+    borderRadius: 5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 10,
+    paddingHorizontal: 10,
+  } as ViewStyle,
+  title: {
+    color: COLORS.darkGrey,
+    fontWeight: 'bold',
+    fontSize: 12,
+  } as TextStyle,
+});
+
+export default FilterBox;
