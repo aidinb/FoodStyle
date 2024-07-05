@@ -1,14 +1,6 @@
 import {action, computed, makeObservable, observable} from 'mobx';
 import {getCategories} from '../utils/api';
-
-interface Category {
-  id: number;
-  name: string;
-  level: number;
-  parentId: number | null;
-  position: number;
-  imagePath: string | null;
-}
+import {Category} from '../utils/types.ts';
 
 class HomeStore {
   allCategories: Category[] = [];

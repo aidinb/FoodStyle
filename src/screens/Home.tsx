@@ -17,15 +17,9 @@ import FilterBox from '../components/FilterBox.tsx';
 import ArrowLeft from '../assets/arrow-left.svg';
 import CrossMark from '../assets/cross-mark.svg';
 import CategoryItem from '../components/CategoryItem.tsx';
+import {Category} from '../utils/types.ts';
 
 const {width} = Dimensions.get('window');
-
-interface Category {
-  id: number;
-  parentId: number;
-  imagePath: string;
-  name: string;
-}
 
 const Home = () => {
   const {homeStore} = useStores();

@@ -1,12 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, TouchableOpacity} from 'react-native';
 import {COLORS} from '../styles';
-
-interface FilterBoxProps {
-  title?: string;
-  onPress: () => void;
-  enable: boolean;
-}
+import {FilterBoxProps} from '../utils/types.ts';
 
 const FilterBox: React.FC<FilterBoxProps> = ({title, onPress, enable}) => (
   <TouchableOpacity onPress={onPress} style={styles.container}>

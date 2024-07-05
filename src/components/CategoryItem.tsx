@@ -6,16 +6,7 @@ import {
   StyleSheet,
   Dimensions,
 } from 'react-native';
-
-interface CategoryItemProps {
-  item: {
-    id: number;
-    parentId: number;
-    imagePath: string;
-    name: string;
-  };
-  onPress: (id: number, parentId: number) => void;
-}
+import {CategoryItemProps} from '../utils/types.ts';
 
 const {width} = Dimensions.get('window');
 
