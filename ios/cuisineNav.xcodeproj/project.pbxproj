@@ -13,12 +13,12 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		31AC733B35DDF2800FC72985 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E2574FAD7A8B326CB5B16383 /* PrivacyInfo.xcprivacy */; };
-		7699B88040F8A987B510C191 /* libPods-cuisineNav-cuisineNavTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-cuisineNav-cuisineNavTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		7FE283476B474B879A844085 /* ProximaNovaAlt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D6EA47C65DD40C1B3CE7825 /* ProximaNovaAlt-Bold.ttf */; };
-		584E1ECDD6DA4431B9351E72 /* ProximaNovaAlt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B7BCC1F2E34DB2915642CE /* ProximaNovaAlt-Regular.ttf */; };
-		AAFC6FDE2FBD4A32814DBBE2 /* ProximaNovaAlt-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DD0C2BDB4484B51936B2E32 /* ProximaNovaAlt-Semibold.ttf */; };
 		38CEAB80E5324BCBBEAD60A7 /* ProximaNovaAltCond-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 055C023CD4FC40D38A75AA86 /* ProximaNovaAltCond-Semibold.ttf */; };
+		584E1ECDD6DA4431B9351E72 /* ProximaNovaAlt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80B7BCC1F2E34DB2915642CE /* ProximaNovaAlt-Regular.ttf */; };
+		7699B88040F8A987B510C191 /* libPods-cuisineNav-cuisineNavTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-cuisineNav-cuisineNavTests.a */; };
+		7FE283476B474B879A844085 /* ProximaNovaAlt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D6EA47C65DD40C1B3CE7825 /* ProximaNovaAlt-Bold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		AAFC6FDE2FBD4A32814DBBE2 /* ProximaNovaAlt-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DD0C2BDB4484B51936B2E32 /* ProximaNovaAlt-Semibold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 		00E356EE1AD99517003FC87E /* cuisineNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cuisineNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* cuisineNavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cuisineNavTests.m; sourceTree = "<group>"; };
+		055C023CD4FC40D38A75AA86 /* ProximaNovaAltCond-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "ProximaNovaAltCond-Semibold.ttf"; path = "../src/assets/fonts/ProximaNovaAltCond-Semibold.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* cuisineNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cuisineNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = cuisineNav/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = cuisineNav/AppDelegate.mm; sourceTree = "<group>"; };
@@ -44,17 +45,16 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = cuisineNav/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-cuisineNav-cuisineNavTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cuisineNav-cuisineNavTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-cuisineNav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisineNav.debug.xcconfig"; path = "Target Support Files/Pods-cuisineNav/Pods-cuisineNav.debug.xcconfig"; sourceTree = "<group>"; };
+		4D6EA47C65DD40C1B3CE7825 /* ProximaNovaAlt-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "ProximaNovaAlt-Bold.ttf"; path = "../src/assets/fonts/ProximaNovaAlt-Bold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-cuisineNav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisineNav.release.xcconfig"; path = "Target Support Files/Pods-cuisineNav/Pods-cuisineNav.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-cuisineNav-cuisineNavTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisineNav-cuisineNavTests.debug.xcconfig"; path = "Target Support Files/Pods-cuisineNav-cuisineNavTests/Pods-cuisineNav-cuisineNavTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-cuisineNav.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cuisineNav.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B7BCC1F2E34DB2915642CE /* ProximaNovaAlt-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "ProximaNovaAlt-Regular.ttf"; path = "../src/assets/fonts/ProximaNovaAlt-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = cuisineNav/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-cuisineNav-cuisineNavTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cuisineNav-cuisineNavTests.release.xcconfig"; path = "Target Support Files/Pods-cuisineNav-cuisineNavTests/Pods-cuisineNav-cuisineNavTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DD0C2BDB4484B51936B2E32 /* ProximaNovaAlt-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "ProximaNovaAlt-Semibold.ttf"; path = "../src/assets/fonts/ProximaNovaAlt-Semibold.ttf"; sourceTree = "<group>"; };
 		E2574FAD7A8B326CB5B16383 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = cuisineNav/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		4D6EA47C65DD40C1B3CE7825 /* ProximaNovaAlt-Bold.ttf */ = {isa = PBXFileReference; name = "ProximaNovaAlt-Bold.ttf"; path = "../src/assets/fonts/ProximaNovaAlt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		80B7BCC1F2E34DB2915642CE /* ProximaNovaAlt-Regular.ttf */ = {isa = PBXFileReference; name = "ProximaNovaAlt-Regular.ttf"; path = "../src/assets/fonts/ProximaNovaAlt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9DD0C2BDB4484B51936B2E32 /* ProximaNovaAlt-Semibold.ttf */ = {isa = PBXFileReference; name = "ProximaNovaAlt-Semibold.ttf"; path = "../src/assets/fonts/ProximaNovaAlt-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		055C023CD4FC40D38A75AA86 /* ProximaNovaAltCond-Semibold.ttf */ = {isa = PBXFileReference; name = "ProximaNovaAltCond-Semibold.ttf"; path = "../src/assets/fonts/ProximaNovaAltCond-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +119,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7CF17E1915DD4238A041E78F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D6EA47C65DD40C1B3CE7825 /* ProximaNovaAlt-Bold.ttf */,
+				80B7BCC1F2E34DB2915642CE /* ProximaNovaAlt-Regular.ttf */,
+				9DD0C2BDB4484B51936B2E32 /* ProximaNovaAlt-Semibold.ttf */,
+				055C023CD4FC40D38A75AA86 /* ProximaNovaAltCond-Semibold.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,18 +173,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		7CF17E1915DD4238A041E78F /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				4D6EA47C65DD40C1B3CE7825 /* ProximaNovaAlt-Bold.ttf */,
-				80B7BCC1F2E34DB2915642CE /* ProximaNovaAlt-Regular.ttf */,
-				9DD0C2BDB4484B51936B2E32 /* ProximaNovaAlt-Semibold.ttf */,
-				055C023CD4FC40D38A75AA86 /* ProximaNovaAltCond-Semibold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 

@@ -9,6 +9,7 @@ import {
   ScrollView,
   FlatList,
   ListRenderItem,
+  StatusBar,
 } from 'react-native';
 import {useStores} from '../stores';
 import {observer} from 'mobx-react';
@@ -18,6 +19,7 @@ import ArrowLeft from '../assets/arrow-left.svg';
 import CrossMark from '../assets/cross-mark.svg';
 import CategoryItem from '../components/CategoryItem.tsx';
 import {Category} from '../utils/types.ts';
+import DeviceInfo from 'react-native-device-info';
 
 const {width} = Dimensions.get('window');
 
@@ -122,7 +124,7 @@ const Home = () => {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 80,
+    paddingTop: DeviceInfo.hasNotch() ? 80 : StatusBar.currentHeight,
     backgroundColor: COLORS.white,
     flex: 1,
   },

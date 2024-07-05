@@ -21,7 +21,7 @@ class HomeStore {
       activeParent: observable,
       activeFilters: observable,
       getAllCategories: action,
-      intermediateCat: computed,
+      catByLevel: computed,
       setAllCategories: action,
       setCategories: action,
       setActiveCat: action,
@@ -59,13 +59,13 @@ class HomeStore {
     try {
       const categories = await getCategories();
       this.setAllCategories(categories);
-      this.setCategories(this.intermediateCat);
+      this.setCategories(this.catByLevel);
     } catch (error) {
       console.error('Failed to fetch categories', error);
     }
   };
 
-  get intermediateCat() {
+  get catByLevel() {
     return this.allCategories.filter(
       category =>
         category.level === this.level && this.activeCat === category.parentId,
@@ -89,7 +89,7 @@ class HomeStore {
     this.setActiveCatParam(rootCatId);
     this.setActiveParent(parentId);
     this.level++;
-    this.setCategories(this.intermediateCat);
+    this.setCategories(this.catByLevel);
   };
 
   get numColumn() {
@@ -99,7 +99,7 @@ class HomeStore {
   resetToRoot = () => {
     this.setActiveCatParam(null);
     this.setLevel(1);
-    this.setCategories(this.intermediateCat);
+    this.setCategories(this.catByLevel);
   };
 
   backStep = () => {
@@ -110,7 +110,7 @@ class HomeStore {
       this.setActiveCatParam(this.activeParent);
       this.setLevel(this.level - 1);
     }
-    this.setCategories(this.intermediateCat);
+    this.setCategories(this.catByLevel);
   };
 
   get activeCatName() {

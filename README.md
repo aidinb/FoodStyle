@@ -21,7 +21,7 @@ This project is a mobile application built with React Native that displays count
 2. Navigate to the project directory: cd FoodStyle
 3. Install dependencies: yarn
 4. Start the application: yarn start
-5. Ios: yarn run-ios
+5. Ios: pod install - yarn run-ios
 6. Android: yarn run-android
 
 ## Usage
@@ -41,7 +41,7 @@ This project is a mobile application built with React Native that displays count
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Aidin Bazarchi License.
 
 ## Acknowledgements
 
