@@ -1,11 +1,5 @@
 import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  ViewStyle,
-  TextStyle,
-} from 'react-native';
+import {StyleSheet, Text, TouchableOpacity} from 'react-native';
 import {COLORS} from '../styles';
 
 interface FilterBoxProps {
@@ -35,12 +29,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     marginRight: 10,
     paddingHorizontal: 10,
-  } as ViewStyle,
+  },
   title: {
     color: COLORS.darkGrey,
     fontWeight: 'bold',
     fontSize: 12,
-  } as TextStyle,
+    fontFamily: 'ProximaNovaAlt-Bold',
+  },
 });
 
 export default FilterBox;

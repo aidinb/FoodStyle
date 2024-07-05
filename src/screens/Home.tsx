@@ -153,6 +153,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 15,
     marginLeft: 7,
+    fontFamily: 'ProximaNovaAlt-Bold',
   },
   iconContainer: {
     flexDirection: 'row',

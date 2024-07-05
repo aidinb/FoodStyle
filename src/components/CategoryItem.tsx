@@ -4,8 +4,6 @@ import {
   Text,
   Image,
   StyleSheet,
-  ViewStyle,
-  ImageStyle,
   Dimensions,
 } from 'react-native';
 
@@ -29,7 +27,7 @@ const CategoryItem: React.FC<CategoryItemProps> = ({item, onPress}) => {
       }}
       style={styles.container}>
       <Image source={{uri: item.imagePath}} style={styles.image} />
-      <Text>{item.name}</Text>
+      <Text style={styles.title}>{item.name}</Text>
     </TouchableOpacity>
   );
 };
@@ -41,12 +39,15 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     width: width / 2 - 50,
     marginRight: 20,
-  } as ViewStyle,
+  },
   image: {
     height: 50,
     width: 50,
     marginRight: 10,
-  } as ImageStyle,
+  },
+  title: {
+    fontFamily: 'ProximaNovaAlt-Regular',
+  },
 });
 
 export default React.memo(CategoryItem);
