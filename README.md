@@ -39,6 +39,22 @@ This project is a mobile application built with React Native that displays count
 5. Push to the branch (`git push origin feature-branch`).
 6. Create a new Pull Request.
 
+## Testing
+
+Due to time constraints, comprehensive testing has not been implemented. However, the following tools are typically used for testing in React Native applications:
+
+- **Unit Testing**: Utilize **React Test Renderer** and **Jest** for unit testing components and functions.
+
+- **Integration Testing**: For integration testing, tools like **Maestro** or **Detox** can be used to ensure smooth interactions between different parts of the application.
+
+## CI/CD (Continuous Integration / Continuous Deployment)
+
+Utilizes CI/CD pipelines to automate the build and deployment processes. We typically use either **App Center** or **Fastlane** for managing these pipelines.
+
+## Analytics and Performance Monitoring
+
+Analytics and performance monitoring are crucial, typically managed using tools like **Firebase** and **Sentry**.
+
 ## License
 
 This project is licensed under the Aidin Bazarchi License.
