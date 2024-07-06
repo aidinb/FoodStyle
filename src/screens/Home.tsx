@@ -110,6 +110,7 @@ const Home = () => {
             renderItem={renderCat}
             style={[
               styles.flatList,
+              // eslint-disable-next-line react-native/no-inline-styles
               {marginTop: homeStore.numColumn === 1 ? 15 : 0},
             ]}
             columnWrapperStyle={
