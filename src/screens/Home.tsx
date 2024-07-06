@@ -101,7 +101,7 @@ const Home = () => {
           <FlatList
             contentContainerStyle={styles.flatListContentContainer}
             showsVerticalScrollIndicator={false}
-            keyExtractor={(item, index) => item.id + index + '_cat'}
+            keyExtractor={(item, index) => 'cat_' + item.id + index}
             key={homeStore.numColumn}
             numColumns={homeStore.numColumn}
             horizontal={homeStore.numColumn === 1}
